@@ -165,6 +165,7 @@ html{
 #contact{
     position: relative;
     align-items: center;
+    text-decoration: none;
 }
 #contact::before{
     content: "";
@@ -223,6 +224,8 @@ footer{
 }
 
 .btn{
+    position: relative;
+    margin-top: 40px;
     padding: 6px 20px;
     border: 2px solid white;
     background-color: brown;
